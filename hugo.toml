@@ -1,4 +1,26 @@
-baseURL = ''
+baseURL = 'https://anandhu.me'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hello-friend-ng'
+title = 'Anandha Krishnan'
+theme = 'PaperMod'
+
+[params]
+  [params.profileMode]
+    enabled = true
+    title = "Anandha Krishnan" # optional default will be site title
+    subtitle = "DevOps Engineer"
+    imageUrl = "" # optional
+    imageTitle = "" # optional
+    imageWidth = 120 # custom size
+    imageHeight = 120 # custom size
+
+    #[[params.profileMode.buttons]]
+    #  name = "Github"
+    #  url = "https://github.com/kisip"
+
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "<link>"
+
+  [[params.socialIcons]]
+    name = "Github"
+    url = "https://github.com/kisip"
